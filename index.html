@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>TypeNow</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div id="myBody">
+        <div class="container-fluid my-3">
+            <nav class="navbar-expand-lg navbar-light bg-light px-5 py-3">
+                <div class="container px-5">
+                    <div class="container px-5">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active mr-5">
+                                    <a class="nav-link" id='home' onclick="giveHome()" href="#">Home</a>
+                                </li>
+                                <li class="nav-item active mr-5">
+                                    <a class="nav-link" id='home' onclick="giveRec()" href="#">Records</a>
+                                </li>
+                                <li class="nav-item active mr-5">
+                                    <a class="nav-link" id="about" onclick="giveAbout()" href="#">About</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" id = "info" onclick="giveInfo()" href="#">Info</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="search">
+                <div class="container card mt-4">
+                    <div class="card-body">
+                        <p class="card-text" id="text">People have been coming to the wise man, complaining about the same problems every time. One day he told them a joke and everyone roared in laughter. After a couple of minutes, he told them the same joke and only a few of them smiled. When he told the same joke for the third time no one laughed anymore.</p>
+                    </div>
+                </div>
+
+                <div class="container card my-2" style="border: 0px; background-color: #808891 ;">
+                    <div class="card-body py-1">
+                        <div class="form-group">
+                            <textarea class="form-control" maxlength="304" oninput="textFunc()" id="userText" rows="4" placeholder="Touch here to start typing"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="card" id = "speedCard">
+                                <div class="card-body">
+                                    <h4 class="card-title">SPEED</h4>
+                                    <h5 class="card-text" id="mySpeed">0 WPM</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card" id = "accuracyCard">
+                                <div class="card-body">
+                                    <h4 class="card-title">ACCURACY</h4>
+                                    <h5 class="card-text" id="myAccuracy">100 %</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 my-4">
+                            <div class="card">
+                                <a href="#" class="btn btn-info" id = "restart" onclick="giveRestart()">Restart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- 
+    <div class="container px-5 py-2" id = "userRecord" style = "background-color:white;"></div> -->
+
+
+    <!-- My Js -->
+    <script src="./backend.js"></script>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

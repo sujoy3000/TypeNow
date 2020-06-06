@@ -1,0 +1,110 @@
+/* Navbar */
+
+.nav-item:hover{
+
+    border-radius: 10px;
+
+    background-color: rgb(0,206,209) ;
+}
+
+
+.card {
+
+    margin: 0 auto;
+
+    float: none;
+
+    margin-bottom: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.btn{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#text{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: larger;
+}
+
+#userText{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: larger;
+}
+
+.giveGreenColor{
+
+    background-color: #5bc538;
+}
+
+.giveRedColor{
+
+    background-color: #F36747;
+}
+
+.giveGreenColor , .giveRedColor{
+
+    padding: 3px;
+
+    border-radius: 3px;
+    
+    color: #fff;
+}
+
+body{
+
+    background-color: #808891;
+    
+    opacity: .9; 
+}
+
+.navbar-expand-lg{
+
+    border-radius: .25rem ;
+}
+
+header.masthead .overlay {
+
+    /* position: absolute; */
+    
+    left: 0;
+    
+    height: 100%;
+    
+    width: 100%;
+
+    /* background-color: #fff; */
+}
+
+
+header.masthead .page-heading {
+
+    text-align: center;
+}
+
+header.masthead .page-heading {
+
+    padding: 110px 0 150px;
+}
+
+#aboutHeader{
+
+    background-color: #808891 ;
+}
+
+#aboutMiddle{
+
+    background-color: #fff ;
+
+    position: absolute;
+
+    height: 50%;
+
+    width: 100%;
+}
