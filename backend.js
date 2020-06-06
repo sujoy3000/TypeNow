@@ -264,6 +264,8 @@ function displaySpeed() {
     speed = parseInt( ( count * factor ) / ( curTime - preTime ) ) ;
 
     accuracy = 100 - ( ( 100 * ( totalCount - count ) ) / Length ).toFixed(1) ;
+    
+    if( accuracy < 0 ) accuracy = 0 ;
 
     if( speed < 20 ) document.getElementById('speedCard').setAttribute( 'style' , 'background-color: #F36747 ;') ;
 
