@@ -47,7 +47,7 @@ let about = `
 </div>
 <div id="aboutMiddle">
     <div class="container my-4">
-        <h5>I Am Sujoy , Currently Doing My Btech , Highly Interested In Coding And Problem Solving. Aaro Ki Janar Aache :)</h5>
+        <h5>I Am Sujoy , Currently Doing My Btech , Highly Interested In Coding And Problem Solving. Happy Coding!!</h5>
     </div>
 </div>
 `
